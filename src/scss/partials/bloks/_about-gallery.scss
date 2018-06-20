@@ -1,0 +1,28 @@
+.about-gallery{
+	&__item{
+		text-decoration: none;
+		display: block;
+		position: relative;
+		img{
+			display: block;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		&:hover{
+			&:before{
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				background-color: rgba(#5E5E5E,.8);
+				background-image: url("../img/search-in-1.svg");
+				background-position: center;
+				background-repeat: no-repeat;
+				width: 100%;
+				height: 100%;
+
+			}
+		}
+	}
+}

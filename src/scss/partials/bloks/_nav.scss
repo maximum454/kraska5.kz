@@ -1,0 +1,28 @@
+.nav{
+	width: 100%;
+	padding: 14px 0;
+	background-color: #2E2E2E;
+	position: relative;
+	&:after {
+		display: block;
+		content: "";
+		clear: both;
+	}
+	a{
+		color: #fff;
+		font-size: 18px;
+		font-weight: bold;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+	@include r(992){
+		a{
+			font-size: 14px;
+		}
+	}
+	@include r(768){
+		a{
+			font-size: 22px;
+		}
+	}
+}

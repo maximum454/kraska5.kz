@@ -1,0 +1,31 @@
+/*mixin*/
+@import "base/mixin";
+@import 'base/normalize';
+@import 'base/fonts';
+@import "base/class";
+
+/*blocks vendors*/
+@import "vendors/bootstrap";
+@import "vendors/bootstrap-theme";
+@import "vendors/slick";
+@import "vendors/fancybox";
+
+/*blocks damutek*/
+@import "bloks/header";
+@import "bloks/nav";
+@import "bloks/slider";
+@import "bloks/main";
+@import "bloks/main-catalog";
+@import "bloks/feedback";
+@import "bloks/partners";
+@import "bloks/modal";
+@import "bloks/footer";
+@import "bloks/now";
+@import "bloks/accept-payment";
+@import "bloks/certificates";
+@import "bloks/about-gallery";
+@import "bloks/contacts";
+@import "bloks/zamer";
+@import "bloks/catalog";
+
+

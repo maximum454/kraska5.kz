@@ -1,0 +1,49 @@
+.zamer{
+	width: 100%;
+	max-width: 730px;
+	margin: 0 auto 60px;
+	position: relative;
+	&:before{
+		content: '';
+		position: absolute;
+		top: -100px;
+		left: -250px;
+		background-image: url("../img/zamer-bg-1.png");
+		width: 525px;
+		height: 438px;
+	}
+	&:after{
+		content: '';
+		position: absolute;
+		top: 100px;
+		right: -200px;
+		background-image: url("../img/zamer-bg-2.png");
+		width: 523px;
+		height: 330px;
+	}
+	&__item{
+		margin-bottom: 30px;
+		position: relative;
+		z-index: 10;
+	}
+	&__input{
+		width: 100%;
+		height: 45px;
+		background-color: #fff;
+		border: 1px solid #2E2E2E;
+		font-size: 23px;
+		padding: 0 15px;
+	}
+	&__btn{
+		background: #2E2E2E;
+		width: 255px;
+		height: 45px;
+		color: #fff;
+		font-size: 14px;
+		text-transform: uppercase;
+		padding: 0 14px;
+		border: 0;
+		border-radius: 30px;
+		outline:none;
+	}
+}

@@ -1,0 +1,72 @@
+.now{
+	position: relative;
+	margin-bottom: 90px;
+	h2{
+		color: #2E2E2E;
+		font-size: 24px;
+		font-weight: bold;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+	&__item{
+		width: 255px;
+		text-align: center;
+	}
+	&__img{
+		margin-bottom: 30px;
+		img{
+			display: block;
+			margin: 0 auto;
+
+		}
+	}
+	&__txt{
+		width: 255px;
+		margin: 0 auto;
+	}
+	&__name{
+		color: #2E2E2E;
+		font-size: 16px;
+		font-weight: bold;
+		text-align: center;
+		text-transform: uppercase;
+		text-decoration: none;
+		margin-bottom: 30px;
+	}
+	&__btn{
+		background: #2E2E2E;
+		width: 255px;
+		height: 45px;
+		color: #fff;
+		font-size: 14px;
+		text-transform: uppercase;
+		text-align: center;
+		padding: 0 14px;
+		border: 0;
+		border-radius: 30px;
+		outline:none;
+	}
+	.slick-arrow {
+		position: absolute;
+		top: 50%;
+		background-color: #fff;
+		background-image: url("../img/arrow-slider.svg");
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		border: none;
+		outline:none;
+		text-indent: -99999999px;
+		z-index: 100;
+	}
+	.slick-prev {
+		left: -60px;
+		transform: rotate(180deg) translate(0,50%);
+	}
+	.slick-next {
+		right: -60px;
+		transform: rotate(0) translate(0,-50%);
+	}
+}

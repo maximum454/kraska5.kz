@@ -1,0 +1,17 @@
+*{
+	box-sizing: border-box;
+}
+html, body{
+	height: 100%;
+	font-family: $fonts1;
+	p{
+		font-size: 18px;
+		font-weight: normal;
+	}
+}
+.hidden{
+	display: none;
+}
+.wrp{
+	overflow: hidden;
+}
