@@ -6,18 +6,6 @@
 		height: 100%;
 		object-fit: cover;
 	}
-	.item{
-		&:before{
-			content: '';
-			position: absolute;
-			top: 0;
-			left: 0;
-			background-color: rgba(#2E2E2E,.7);
-			width: 100%;
-			height: 100%;
-			z-index: 1;
-		}
-	}
 	.carousel-control {
 		position: absolute;
 		top: 0;
@@ -40,9 +28,9 @@
 	.carousel-caption {
 		width: 100%;
 		max-width: 620px;
-		color: #fff;
-		font-size: 36px;
-		font-family: $fonts1;
+		color: #F76B1C;
+		font-size: 44px;
+		font-family: $fonts2;
 		font-weight: bold;
 		left: 50%;
 		right: 0;
