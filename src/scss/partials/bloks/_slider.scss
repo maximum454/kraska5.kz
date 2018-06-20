@@ -30,13 +30,14 @@
 		max-width: 620px;
 		color: #F76B1C;
 		font-size: 44px;
-		font-family: $fonts2;
+		font-family: $fonts3;
 		font-weight: bold;
-		left: 50%;
-		right: 0;
+		top: 30px;
+		left: auto;
+		right: 30px;
 		bottom: auto;
-		top: 50%;
-		transform: translate(-50%,-50%);
+
+		transform: translate(0,0);
 	}
 	@include r(768){
 		.carousel-caption {

@@ -28,7 +28,14 @@
   font-weight: bold;
   font-style: italic;
 }
+@font-face {
+  font-family: 'Neucha';
+  src: url('../fonts/Neucha/Neucha.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 $fonts1: 'SourceSansPro', Arial, Helvetica, sans-serif;
 $fonts2: 'BadScript';
+$fonts3: 'Neucha';
