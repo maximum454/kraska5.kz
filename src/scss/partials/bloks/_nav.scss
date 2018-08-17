@@ -1,28 +1,36 @@
-.nav1{
-	width: 100%;
-	padding: 14px 0;
-	background-color: #2E2E2E;
-	position: relative;
-	&:after {
-		display: block;
-		content: "";
-		clear: both;
-	}
-	a{
-		color: #fff;
-		font-size: 18px;
-		font-weight: bold;
-		text-decoration: none;
-		text-transform: uppercase;
-	}
-	@include r(992){
+.navbar-default{
+	box-shadow: none;
+	background: #ff9900;
+	background: -moz-linear-gradient(left, #ff9900 0%, #f76b1c 100%);
+	background: -webkit-linear-gradient(left, #ff9900 0%,#f76b1c 100%);
+	background: linear-gradient(to right, #ff9900 0%,#f76b1c 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9900', endColorstr='#f76b1c',GradientType=1 );
+	margin-bottom: 0;
+	border: none;
+	border-radius: 0;
+	.nav{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		li{
+			width: auto;
+		}
 		a{
-			font-size: 14px;
+			color: #fff;
+			font-size: 18px;
+			font-weight: bold;
+			text-decoration: none;
+			text-transform: uppercase;
+			padding: 13px 15px;
+			&:hover{
+				background-color: #fff;
+				color: #75442A;
+			}
 		}
 	}
-	@include r(768){
-		a{
-			font-size: 22px;
-		}
-	}
+}
+.navbar-collapse{
+	background-color: transparent;
+	height: 100%;
+	padding: 0;
 }
